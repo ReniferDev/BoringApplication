@@ -34,6 +34,7 @@
             // 
             // ConsoleRichTextBox
             // 
+            this.ConsoleRichTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.ConsoleRichTextBox.Location = new System.Drawing.Point(12, 150);
             this.ConsoleRichTextBox.Name = "ConsoleRichTextBox";
             this.ConsoleRichTextBox.Size = new System.Drawing.Size(673, 271);
@@ -42,6 +43,7 @@
             // 
             // ConsoleLabel
             // 
+            this.ConsoleLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.ConsoleLabel.AutoSize = true;
             this.ConsoleLabel.Location = new System.Drawing.Point(12, 118);
             this.ConsoleLabel.Name = "ConsoleLabel";
@@ -56,8 +58,9 @@
             this.ClientSize = new System.Drawing.Size(697, 433);
             this.Controls.Add(this.ConsoleLabel);
             this.Controls.Add(this.ConsoleRichTextBox);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "BoringApp";
             this.ResumeLayout(false);
             this.PerformLayout();
 
